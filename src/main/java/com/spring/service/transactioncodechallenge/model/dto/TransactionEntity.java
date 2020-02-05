@@ -1,4 +1,4 @@
-package com.spring.service.transactioncodechallenge.model;
+package com.spring.service.transactioncodechallenge.model.dto;
 
 import javax.persistence.*;
 import java.io.Serializable;
