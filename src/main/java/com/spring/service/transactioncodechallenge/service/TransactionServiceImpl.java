@@ -1,7 +1,7 @@
-package com.spring.service.transactioncodechallenge.model.dto;
+package com.spring.service.transactioncodechallenge.service;
 
 import com.spring.service.transactioncodechallenge.model.dao.ITransactionDao;
-import com.spring.service.transactioncodechallenge.service.ITransactionService;
+import com.spring.service.transactioncodechallenge.model.dto.TransactionEntity;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

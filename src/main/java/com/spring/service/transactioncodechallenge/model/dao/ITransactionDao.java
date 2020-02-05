@@ -12,6 +12,7 @@ import java.util.List;
 public interface ITransactionDao extends CrudRepository<TransactionEntity, Long> {
 
     public List<TransactionEntity> findAll();
+    public TransactionEntity findByReference(String reference);
 
 
 }

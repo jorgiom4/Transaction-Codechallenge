@@ -6,7 +6,7 @@ import java.io.Serializable;
 /**
  * Entidad transaccion
  */
-@Entity
+@Entity(name = "TransactionEntity")
 @Table(name = "transaction")
 public class TransactionEntity implements Serializable {
 
