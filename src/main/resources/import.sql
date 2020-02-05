@@ -1,0 +1,9 @@
+INSERT INTO transaction (reference, account_iban, date, amount, fee, description) VALUES('12345A', 'ES123456789012131415161', '2020-02-01T16:05:43.000Z', 193.38, 3.18, 'Payroll Payment');
+INSERT INTO transaction (reference, account_iban, date, amount, fee, description) VALUES('12345B', 'ES123445789012131415162', '2019-06-30T15:11:11.000Z', -50.2, 1.01, 'Restaurant Payment');
+INSERT INTO transaction (reference, account_iban, date, amount, fee, description) VALUES('12345C', 'ES123411189012131415163', '2019-05-05T09:15:33.000Z', 10.4, 4.18, 'Fee tol');
+INSERT INTO transaction (reference, account_iban, date, amount, fee, description) VALUES('12345D', 'ES123488989012131415164', '2019-01-01T11:07:11.000Z', -93.12, 1.18, 'Payroll Payment_1');
+INSERT INTO transaction (reference, account_iban, date, amount, fee, description) VALUES('12345F', 'ES123456789012177715165', '2019-12-12T12:08:34.000Z', 77.50, 32.18, 'Payroll Payment_2');
+INSERT INTO transaction (reference, account_iban, date, amount, fee, description) VALUES('12345G', 'ES123456789015671415166', '2019-09-23T03:12:12.000Z', -23.34, 12.18, 'Payroll Payment_3');
+INSERT INTO transaction (reference, account_iban, date, amount, fee, description) VALUES('12345H', 'ES123456789067831415167', '2019-09-17T09:35:09.000Z', 454.67, 1.07, 'Payroll Payment_4');
+INSERT INTO transaction (reference, account_iban, date, amount, fee, description) VALUES('12345I', 'ES123456789012331415168', '2019-03-09T06:55:04.000Z', 112.38, 5.18, 'Payroll Payment_5');
+INSERT INTO transaction (reference, account_iban, date, amount, fee, description) VALUES('12345J', 'ES123456789034531415169', '2019-08-04T12:59:59.000Z', -90.22, 6.28, 'Payroll Payment_6');
