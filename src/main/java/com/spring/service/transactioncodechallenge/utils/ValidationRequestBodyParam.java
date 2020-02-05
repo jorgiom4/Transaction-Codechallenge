@@ -2,7 +2,6 @@ package com.spring.service.transactioncodechallenge.utils;
 
 import com.spring.service.transactioncodechallenge.exceptions.AccountBalanceCeroException;
 import com.spring.service.transactioncodechallenge.exceptions.BadParamsNewTransactionException;
-import com.spring.service.transactioncodechallenge.model.dto.TransactionEntity;
 import com.spring.service.transactioncodechallenge.model.dto.TransactionEntityRequest;
 import com.spring.service.transactioncodechallenge.service.TransactionServiceImpl;
 import org.slf4j.Logger;
