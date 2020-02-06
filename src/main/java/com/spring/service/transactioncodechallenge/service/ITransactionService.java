@@ -1,5 +1,6 @@
 package com.spring.service.transactioncodechallenge.service;
 
+import com.spring.service.transactioncodechallenge.model.dto.SearchTransactionParams;
 import com.spring.service.transactioncodechallenge.model.dto.TransactionEntity;
 import com.spring.service.transactioncodechallenge.model.dto.TransactionEntityRequest;
 
@@ -15,6 +16,9 @@ public interface ITransactionService {
 
     // Lista todas las transacciones
     public List<TransactionEntity> findAll();
+
+    // Busca transacciones por número de cuenta IBAN
+    public List<TransactionEntity> findTransactions(SearchTransactionParams params);
 
 
 
